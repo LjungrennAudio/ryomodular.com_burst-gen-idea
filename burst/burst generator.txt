@@ -1,0 +1,36 @@
+	      trigger bomb		   |		  trigger bomb
+------------------------------------------ |	--------------------------------------
+					   |	
+     led		         led	   |	
+	socket		  socket	   |	trigger in		env out
+					   |	
+					   |	
+    ------------Green led-----------	   |		-----------------
+					   |	      ---------------------
+ -------Purple led	  Green led-----   |	   ---------	     ----------
+		 socket			   |	  -------burst length cv--------
+Pink led	  big		  Yellow led	  -------------------------------
+	  --------red---------		   |		-----number-----
+Red led		  knob		  Yellow led	 ---------------------------------
+		smol knob		   |	  ------burst length atten-------		
+  -------Red led	  Amber led-----   |	   ---------	     ----------
+					   |	     -----------------------
+     ------------Amber led-----------	   |		-----------------
+					   |	
+     led		         led	   |	
+	socket		    socket	   |	clock out		  EOC
+					   |	
+		  socket		   |		     spread cv
+		 smol knob		   |		   spread cv atten
+					   |	
+		 smol knob		   |		   spread manual	
+		  switch		   |		lo	range	  hi
+					   |	
+     led		      led	   |	
+knob				  socket   |	random rate		  trig out
+					   |	
+	knob		  socket	   |		reandom lvl     freeze cv/
+					   |				 shape in
+					   |							
+-------------------------------------------|	-------------------------------------
+				`ryo	   |				      ryo
